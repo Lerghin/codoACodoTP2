@@ -1,0 +1,190 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+ font-size: 1rem;
+
+}
+
+
+#logo{
+ margin-left: 100px;
+
+
+}
+
+.navbar{
+
+background-color: #454647;
+color: rgba(255,255,255,.55);
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+
+}
+#header{
+
+
+margin-left:250px ;
+
+
+}
+.nav-link{
+
+    display: block;
+    padding: 0.5rem 1rem;
+ 
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+
+}
+
+.card:hover{
+       
+        transform:scale(1.05);
+        }
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+    transition: all 1.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+color:rgb(230, 227, 227);
+transform:scale(1.2);
+}
+
+
+#comprar:hover{
+color: rgb(21, 204, 21);
+
+}
+main{
+    background-image: url(./imagenes/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+
+    
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+   
+}
+p{
+    text-align: justify;
+}
+.card{
+ margin: 10px;
+
+}
+.formulario{
+    margin-bottom: 30px;
+}
+footer{
+    width: 100%;
+
+ 
+
+   background-color: #18554d
+}
+.nav-item{
+ text-align: center;
+}
+
+div[id="precios"]{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+text-align: center;
+padding: 10px;
+margin-left: 100px;
+transition: all 2s;
+flex-wrap: wrap;
+
+}
+
+#precios :hover{
+
+    transform:scale(1.05);
+
+    
+}
+
+.botones{
+
+display: flex;
+justify-content: space-evenly;
+
+
+
+}
+
+#resumen, #borrar{
+
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 20px;
+ 
+}
+
+
+  
+
+  #total{
+
+ height: 40px;
+ 
+text-align: center;
+font-weight: bold;
+padding-top: 10px;
+padding-left: 5px;
+color:blue;
+  }
+
+
+div[id="resultado"]{
+    display:flex;
+    justify-content:center;
+}
+form[id="envio"]{
+    
+    margin-top: 20px;
+    max-width: 90%;
+}
+form[id="envio"]>input{
+   
+    text-align: center;
+    width:22%;
+ 
+
+ 
+}
+#text{
+width: 85%;
+display: flex;
+justify-content: center;
+margin-top: 5px;
+
+}
+label{
+    text-align: center;
+}
+form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap:3px ;
+    align-items: center;
+}
+input{
+    width:100%;
+}
+
